@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <div >
-            <nav className="px-6 md:px-10 h-30 flex items-center justify-between relative z-50">
+            <nav className=" md:px-10 h-30 flex items-center justify-between relative z-50">
 
                 {/* Logo */}
                 <a href="/">
