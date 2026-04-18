@@ -1,4 +1,5 @@
 import { FaArrowDown, FaArrowRight } from "react-icons/fa6";
+import BtnPrimary from "./buttons/BtnPrimary";
 
 export default function OurImpactSection() {
     return (
@@ -43,12 +44,7 @@ export default function OurImpactSection() {
                             Nooit meer content zonder resultaat.
                         </p>
 
-                        <button className="flex items-center gap-3 w-fit border border-black rounded-2xl px-5 py-2 hover:-rotate-5 transition-all duration-300">
-                            <span>Leer ons kennen</span>
-                            <span className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-lg">
-                                <FaArrowRight />
-                            </span>
-                        </button>
+                        <BtnPrimary>Leer ons kennen</BtnPrimary>
 
                     </div>
                 </div>
