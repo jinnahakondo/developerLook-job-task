@@ -39,8 +39,8 @@ export default function FeaturedContentSection() {
                 <BtnPrimary>Bekijk al ons werk</BtnPrimary>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-26'>
-                {data.map((card, index) => <FeaturedCard key={index} card={card} index={index}/>)}
+            <div className='grid grid-cols-1 lg:grid-cols-3  gap-26'>
+                {data.map((card, index) => <FeaturedCard key={index} card={card} index={index} />)}
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ export default function FeaturedCard({ card, index }) {
     return (
         <div
             style={{ borderColor: card.color, bottom: `${(index) * 80}px` }}
-            className="relative w-full max-w-sm rounded-[28px] border-4 overflow-hidden bg-black group hover:-rotate-3 transition-all duration-300 ">
+            className="relative w-full max-w-sm rounded-[28px] border-4 overflow-hidden bg-black group hover:-rotate-3 transition-all duration-300  justify-self-center">
 
             {/* Desktop Image */}
             <img
